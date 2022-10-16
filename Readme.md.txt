@@ -1,6 +1,7 @@
 Links:
- ArielKlug.github.io
- 
+ -PAGES: ArielKlug.github.io
+ -SERVIDOR: https://precious-horse-31e82b.netlify.app/index.html      (no sé por qué me quedó ese nombre) PD:en 000webhost no me tomaba parte del css pero en netlify si.
+ -REPOSITORIO: https://github.com/ArielKlug/ArielKlug.github.io
 
 _Fitness gym es un sitio web ficticio creado como proyecto de desarrollo web mientras aprendía al respecto.
 
