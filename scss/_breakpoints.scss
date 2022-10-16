@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+    
+    .imgG{
+        width: 100%;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .imgG{
+        width: 100%;
+        height: 70vh;
+    }
+    .imgG4{
+        width: 100%;
+        height: 40vh;
+    }
+    .flexContainer{
+        flex-direction: column;
+    }
+    .figureImg{
+        max-width: 100%;
+        width: auto;
+    }
+    .contact-info ul, p {
+        text-align: center;
+    }
+}
