@@ -1,8 +1,6 @@
 Links:
-
-
-
-
+ ArielKlug.github.io
+ 
 
 _Fitness gym es un sitio web ficticio creado como proyecto de desarrollo web mientras aprendía al respecto.
 
