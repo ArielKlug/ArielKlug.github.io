@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Roboto:wght@300&display=swap");
+nav {
+  background-color: rgba(151, 0, 3, 0.8);
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a img {
+  width: 9rem;
+  margin: 0 20px;
+  padding-top: 3px;
+  cursor: pointer;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  padding-right: 10px;
+  justify-content: space-evenly;
+}
+nav ul li a {
+  color: #1c0abb;
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  padding: 0 5px;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+nav ul li a:hover {
+  color: #1c0abb;
+  background-size: 100% 2px;
+  list-style: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+  color: rgba(233, 226, 221, 0.8);
+  text-decoration: underline;
+  font-family: "Nunito Sans", sans-serif;
+  height: auto;
+  text-align: center;
+}
+
+h4 {
+  font-size: 2.6rem;
+  font-family: "Nunito Sans", sans-serif;
+  text-decoration: underline;
+  color: rgba(233, 226, 221, 0.8);
+}
+
+h2, h3 {
+  color: rgba(233, 226, 221, 0.8);
+  text-decoration: underline;
+  font-family: "Nunito Sans", sans-serif;
+  height: auto;
+  text-align: center;
+  margin: 0;
+  font-size: 4rem;
+}
+
+.textWhite, .main article section p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 2.2rem;
+  font-size: 2rem;
+  color: rgba(233, 226, 221, 0.8);
+  padding: 0 1em 0 1em;
+}
+
+.menuList {
+  background-color: rgb(32, 28, 28);
+}
+
+.list {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin-top: 1em;
+  height: 100%;
+}
+
+.main {
+  background-color: rgb(0, 0, 0);
+}
+.flexContainer {
+  padding: 5px 10px;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.bord-red {
+  border-bottom: 1px solid #d63031;
+}
+
+.bord-red-total {
+  border: 1px solid #d63031;
+}
+
+.bg-black {
+  background-color: rgb(0, 0, 0);
+}
+
+div .flexContainer {
+  border-bottom: 1px solid #d63031;
+}
+
+.figureImg {
+  width: 40%;
+  padding: 5px 10px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.txtCenter {
+  display: flex;
+  align-items: center;
+}
+
+.rowReverse {
+  flex-direction: row-reverse;
+}
+
+.tittle {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.tittle h1, .tittle h2 {
+  width: 100%;
+}
+
+.imgG {
+  width: 100%;
+  height: 50vh;
+}
+
+.imgG2 {
+  width: 100%;
+  height: 50vh;
+}
+
+.imgG3 {
+  width: 100%;
+  height: 50vh;
+}
+
+.imgG4 {
+  width: 100%;
+  height: auto;
+}
+
+#error404 {
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  display: flex;
+}
+#error404 img {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid #d63031;
+  text-decoration: none;
+  border: 0;
+  text-transform: uppercase;
+  margin-top: 2em;
+  padding: 1em;
+  background: #B70E21;
+}
+.btn:hover, .btn:focus {
+  background: #d63031;
+  color: #fff;
+  transition: backgraund-color 1s ease-out;
+  outline: 0;
+}
+
+.logo {
+  text-align: center;
+  font-size: 3em;
+  color: rgba(233, 226, 221, 0.8);
+}
+
+.contact-wrapper > * {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+  padding: 1em;
+  overflow-x: hidden;
+}
+
+.contact-form {
+  background: #222222;
+  overflow-x: hidden;
+}
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact-form form label {
+  display: block;
+  color: rgba(233, 226, 221, 0.8);
+  font-size: 2rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+  height: 90%;
+}
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+.contact-form form .block {
+  grid-column: 1/3;
+}
+.contact-form form input, .contact-form form textarea {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid #d63031;
+}
+.contact-form form #link404 {
+  display: inline-block;
+  width: 100%;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid #d63031;
+  text-decoration: none;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+  background: #B70E21;
+}
+.contact-form form #link404:hover, .contact-form form #link404:focus {
+  background: #d63031;
+  color: #fff;
+  transition: backgraund-color 1s ease-out;
+  outline: 0;
+}
+
+.contact-info {
+  background: #000;
+}
+.contact-info h4, .contact-info ul, .contact-info p {
+  list-style: none;
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.pie {
+  text-align: center;
+  background-color: rgb(34, 34, 34);
+}
+.pie a img {
+  width: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .imgG {
+    width: 100%;
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 425px) {
+  .imgG {
+    width: 100%;
+    height: 70vh;
+  }
+  .imgG4 {
+    width: 100%;
+    height: 40vh;
+  }
+  .flexContainer {
+    flex-direction: column;
+  }
+  .figureImg {
+    max-width: 100%;
+    width: auto;
+  }
+  .contact-info ul, p {
+    text-align: center;
+  }
+}
